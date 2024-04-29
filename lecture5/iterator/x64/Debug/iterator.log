@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(16,8): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(31,9): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(48,8): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(52,9): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(65,8): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(75,9): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(90,8): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\main.cpp(94,9): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  iterator.vcxproj -> C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\lecture5\iterator\x64\Debug\iterator.exe

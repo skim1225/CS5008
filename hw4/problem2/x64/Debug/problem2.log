@@ -1,0 +1,60 @@
+﻿  bookType.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1066,54): error C2794: 'iterator_category': is not a member of any direct or indirect base class of 'std::iterator_traits<_InIt>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1066,54): error C2794:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1066,54): error C2794:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1066,54): error C2794:             _InIt=std::string
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1066,54): error C2794:         ]
+  (compiling source file 'bookType.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1066,54):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\kimso\OneDrive\Documents\NEU\24Sp 5008\student-SoojiKim\hw4\problem2\bookType.cpp(21,2):
+  	see reference to function template instantiation '_OutIt std::copy<std::string,std::string*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::string *,
+              _InIt=std::string
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(4610,50):
+  	see reference to function template instantiation 'auto std::_Idl_distance<std::string,_InIt>(const _Iter &,const _Iter &)' being compiled
+          with
+          [
+              _InIt=std::string,
+              _Iter=std::string
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1338,19):
+  	see reference to variable template 'const bool _Is_ranges_random_iter_v<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1115,5):
+  	see reference to variable template 'const bool _Is_cpp17_random_iter_v<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1108,71):
+  	see reference to alias template instantiation 'std::_Iter_cat_t<_InIt>' being compiled
+          with
+          [
+              _InIt=std::string
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1108,71): error C2938: 'std::_Iter_cat_t' : Failed to specialize alias template
+  (compiling source file 'bookType.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1108,54): error C2062: type 'unknown-type' unexpected
+  (compiling source file 'bookType.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1108,13): error C3376: 'std::_Is_cpp17_random_iter_v': only static data member templates are allowed
+  (compiling source file 'bookType.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1115,5): error C2131: expression did not evaluate to a constant
+  (compiling source file 'bookType.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1115,5):
+  failure was caused by a read of an uninitialized symbol
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1115,5):
+  see usage of 'std::_Is_cpp17_random_iter_v<std::string>'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1338,19): error C2131: expression did not evaluate to a constant
+  (compiling source file 'bookType.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1115,5):
+  failure was caused by a read of an uninitialized symbol
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1115,5):
+  see usage of 'std::_Is_cpp17_random_iter_v<std::string>'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(4606,1): error C1903: unable to recover from previous error(s); stopping compilation
+  (compiling source file 'bookType.cpp')
+  
